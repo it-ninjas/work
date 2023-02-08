@@ -1,24 +1,29 @@
 package ch.itninjas.labs.j7.list.lab1;
 
+import ch.itninjas.labs.j7.list.lab2.MyArrayListExtended;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class MyArrayListTest {
+/*
+ * TODO: Add tests for the additional methods from MyListInterfaceExtended.
+ */
+
+class MyArrayListExtendedTest {
 
     static final String ELEMENT_FIRST = "First";
     static final String ELEMENT_SECOND = "Second";
     static final String ELEMENT_THIRD = "Third";
 
-    MyArrayList<String> listEmpty;
-    MyArrayList<String> listWithThirdElements;
+    MyArrayListExtended<String> listEmpty;
+    MyArrayListExtended<String> listWithThirdElements;
 
     @BeforeEach
     void setUp() {
-        listEmpty = new MyArrayList<>();
-        listWithThirdElements = new MyArrayList<>();
+        listEmpty = new MyArrayListExtended<>();
+        listWithThirdElements = new MyArrayListExtended<>();
         listWithThirdElements.add(ELEMENT_FIRST);
         listWithThirdElements.add(ELEMENT_SECOND);
         listWithThirdElements.add(ELEMENT_THIRD);
