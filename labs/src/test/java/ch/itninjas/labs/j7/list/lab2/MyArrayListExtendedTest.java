@@ -1,4 +1,4 @@
-package ch.itninjas.labs.j7.list.lab1;
+package ch.itninjas.labs.j7.list.lab2;
 
 import ch.itninjas.labs.j7.list.lab2.MyArrayListExtended;
 import org.junit.jupiter.api.*;
@@ -21,7 +21,7 @@ class MyArrayListExtendedTest {
         listEmpty = new MyArrayListExtended<>();
         listWithThirdElements = new MyArrayListExtended<>();
         listWithThirdElements.add(ELEMENT_FIRST);
-        listWithThirdElements.add(ELEMENT_SECOND);
+        listWithThirdElements.add(null);
         listWithThirdElements.add(ELEMENT_THIRD);
     }
 
@@ -82,12 +82,16 @@ class MyArrayListExtendedTest {
         void shouldAddNullElement() {
             listEmpty.add(null);
             listEmpty.add(null);
+            listEmpty.add(ELEMENT_FIRST);
             assertFalse(listEmpty.isEmpty());
-            assertEquals(2, listEmpty.size());
+            assertEquals(3, listEmpty.size());
+            assertTrue(listEmpty.contains(null));
+            assertTrue(listEmpty.contains(ELEMENT_FIRST));
             assertNull(listEmpty.get(0));
             assertNull(listEmpty.remove(0));
-            assertEquals(1, listEmpty.size());
+            assertEquals(2, listEmpty.size());
             assertNull(listEmpty.remove(0));
+            assertEquals(ELEMENT_FIRST, listEmpty.remove(0));
             assertEquals(0, listEmpty.size());
             assertTrue(listEmpty.isEmpty());
         }
@@ -95,7 +99,7 @@ class MyArrayListExtendedTest {
         @Test
         void shouldGetWithIndex() {
             assertEquals(ELEMENT_FIRST, listWithThirdElements.get(0));
-            assertEquals(ELEMENT_SECOND, listWithThirdElements.get(1));
+            assertNull(listWithThirdElements.get(1));
             assertEquals(ELEMENT_THIRD, listWithThirdElements.get(2));
         }
 
@@ -116,13 +120,13 @@ class MyArrayListExtendedTest {
             assertEquals(ELEMENT_FIRST, listWithThirdElements.remove(0));
             assertFalse(listWithThirdElements.isEmpty());
             assertEquals(2, listWithThirdElements.size());
-            assertEquals(ELEMENT_SECOND, listWithThirdElements.get(0));
+            assertNull(listWithThirdElements.get(0));
             assertEquals(ELEMENT_THIRD, listWithThirdElements.get(1));
         }
 
         @Test
         void shouldRemoveMiddleElement() {
-            assertEquals(ELEMENT_SECOND, listWithThirdElements.remove(1));
+            assertNull(listWithThirdElements.remove(1));
             assertFalse(listWithThirdElements.isEmpty());
             assertEquals(2, listWithThirdElements.size());
             assertEquals(ELEMENT_FIRST, listWithThirdElements.get(0));
@@ -135,7 +139,7 @@ class MyArrayListExtendedTest {
             assertFalse(listWithThirdElements.isEmpty());
             assertEquals(2, listWithThirdElements.size());
             assertEquals(ELEMENT_FIRST, listWithThirdElements.get(0));
-            assertEquals(ELEMENT_SECOND, listWithThirdElements.get(1));
+            assertNull(listWithThirdElements.get(1));
         }
 
         @Test
@@ -191,7 +195,7 @@ class MyArrayListExtendedTest {
             assertEquals(4, listWithThirdElements.size());
             assertEquals(ELEMENT_FOURTH, listWithThirdElements.get(0));
             assertEquals(ELEMENT_FIRST, listWithThirdElements.get(1));
-            assertEquals(ELEMENT_SECOND, listWithThirdElements.get(2));
+            assertNull(listWithThirdElements.get(2));
             assertEquals(ELEMENT_THIRD, listWithThirdElements.get(3));
         }
 
@@ -202,7 +206,7 @@ class MyArrayListExtendedTest {
             assertEquals(4, listWithThirdElements.size());
             assertEquals(ELEMENT_FIRST, listWithThirdElements.get(0));
             assertEquals(ELEMENT_FOURTH, listWithThirdElements.get(1));
-            assertEquals(ELEMENT_SECOND, listWithThirdElements.get(2));
+            assertNull(listWithThirdElements.get(2));
             assertEquals(ELEMENT_THIRD, listWithThirdElements.get(3));
         }
 
@@ -212,7 +216,7 @@ class MyArrayListExtendedTest {
             assertFalse(listWithThirdElements.isEmpty());
             assertEquals(4, listWithThirdElements.size());
             assertEquals(ELEMENT_FIRST, listWithThirdElements.get(0));
-            assertEquals(ELEMENT_SECOND, listWithThirdElements.get(1));
+            assertNull(listWithThirdElements.get(1));
             assertEquals(ELEMENT_THIRD, listWithThirdElements.get(2));
             assertEquals(ELEMENT_FOURTH, listWithThirdElements.get(3));
         }
@@ -240,7 +244,7 @@ class MyArrayListExtendedTest {
         @Test
         void shouldContainsOrNotElements() {
             assertTrue(listWithThirdElements.contains(ELEMENT_FIRST));
-            assertTrue(listWithThirdElements.contains(ELEMENT_SECOND));
+            assertTrue(listWithThirdElements.contains(null));
             assertTrue(listWithThirdElements.contains(ELEMENT_THIRD));
             assertFalse(listWithThirdElements.contains(ELEMENT_FOURTH));
             assertFalse(listWithThirdElements.contains(ELEMENT_FIFTH));
@@ -255,13 +259,16 @@ class MyArrayListExtendedTest {
         @Test
         void shouldNotContainsNull() {
             assertFalse(listEmpty.contains(null));
-            assertFalse(listWithThirdElements.contains(null));
+
+            listEmpty.add(ELEMENT_FIRST);
+            listEmpty.add(ELEMENT_SECOND);
+            assertFalse(listEmpty.contains(null));
         }
 
         @Test
         void shouldGetIndexOfElement() {
             assertEquals(0, listWithThirdElements.indexOf(ELEMENT_FIRST));
-            assertEquals(1, listWithThirdElements.indexOf(ELEMENT_SECOND));
+            assertEquals(1, listWithThirdElements.indexOf(null));
             assertEquals(2, listWithThirdElements.indexOf(ELEMENT_THIRD));
             assertEquals(-1, listWithThirdElements.indexOf(ELEMENT_FOURTH));
             assertEquals(-1, listWithThirdElements.indexOf(ELEMENT_FIFTH));
@@ -272,13 +279,13 @@ class MyArrayListExtendedTest {
             assertEquals(ELEMENT_FIRST, listWithThirdElements.set(0, ELEMENT_FOURTH));
             assertEquals(3, listWithThirdElements.size());
             assertEquals(ELEMENT_FOURTH, listWithThirdElements.get(0));
-            assertEquals(ELEMENT_SECOND, listWithThirdElements.get(1));
+            assertNull(listWithThirdElements.get(1));
             assertEquals(ELEMENT_THIRD, listWithThirdElements.get(2));
         }
 
         @Test
         void shouldReplaceSecondElement() {
-            assertEquals(ELEMENT_SECOND, listWithThirdElements.set(1, ELEMENT_FOURTH));
+            assertNull(listWithThirdElements.set(1, ELEMENT_FOURTH));
             assertEquals(3, listWithThirdElements.size());
             assertEquals(ELEMENT_FIRST, listWithThirdElements.get(0));
             assertEquals(ELEMENT_FOURTH, listWithThirdElements.get(1));
@@ -290,7 +297,7 @@ class MyArrayListExtendedTest {
             assertEquals(ELEMENT_THIRD, listWithThirdElements.set(2, ELEMENT_FOURTH));
             assertEquals(3, listWithThirdElements.size());
             assertEquals(ELEMENT_FIRST, listWithThirdElements.get(0));
-            assertEquals(ELEMENT_SECOND, listWithThirdElements.get(1));
+            assertNull(listWithThirdElements.get(1));
             assertEquals(ELEMENT_FOURTH, listWithThirdElements.get(2));
         }
 
@@ -321,7 +328,10 @@ class MyArrayListExtendedTest {
         @Test
         void shouldNotGetIndexOfNull() {
             assertEquals(-1, listEmpty.indexOf(null));
-            assertEquals(-1, listWithThirdElements.indexOf(null));
+
+            listEmpty.add(ELEMENT_FIRST);
+            listEmpty.add(ELEMENT_SECOND);
+            assertEquals(-1, listEmpty.indexOf(null));
         }
 
         @Test
@@ -349,13 +359,13 @@ class MyArrayListExtendedTest {
             assertTrue(listWithThirdElements.remove(ELEMENT_FIRST));
             assertEquals(2, listWithThirdElements.size());
             assertFalse(listWithThirdElements.contains(ELEMENT_FIRST));
-            assertEquals(ELEMENT_SECOND, listWithThirdElements.get(0));
+            assertNull(listWithThirdElements.get(0));
             assertEquals(ELEMENT_THIRD, listWithThirdElements.get(1));
         }
 
         @Test
         void shouldRemoveSecondElement() {
-            assertTrue(listWithThirdElements.remove(ELEMENT_SECOND));
+            assertTrue(listWithThirdElements.remove(null));
             assertEquals(2, listWithThirdElements.size());
             assertFalse(listWithThirdElements.contains(ELEMENT_SECOND));
             assertEquals(ELEMENT_FIRST, listWithThirdElements.get(0));
@@ -368,7 +378,7 @@ class MyArrayListExtendedTest {
             assertEquals(2, listWithThirdElements.size());
             assertFalse(listWithThirdElements.contains(ELEMENT_THIRD));
             assertEquals(ELEMENT_FIRST, listWithThirdElements.get(0));
-            assertEquals(ELEMENT_SECOND, listWithThirdElements.get(1));
+            assertNull(listWithThirdElements.get(1));
         }
 
         @Test
@@ -381,6 +391,13 @@ class MyArrayListExtendedTest {
             assertEquals(1, listEmpty.size());
             assertFalse(listEmpty.contains(null));
             assertEquals(ELEMENT_SECOND, listEmpty.get(0));
+        }
+
+        @Test
+        void shouldRemoveNotExistingElement() {
+            assertThrows(IndexOutOfBoundsException.class, () ->
+                    listWithThirdElements.remove(ELEMENT_FIFTH)
+            );
         }
     }
 }

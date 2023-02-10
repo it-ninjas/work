@@ -20,7 +20,7 @@ class MyArrayListSimpleTest {
         listEmpty = new MyArrayListSimple<>();
         listWithThirdElements = new MyArrayListSimple<>();
         listWithThirdElements.add(ELEMENT_FIRST);
-        listWithThirdElements.add(ELEMENT_SECOND);
+        listWithThirdElements.add(null);
         listWithThirdElements.add(ELEMENT_THIRD);
     }
 
@@ -91,7 +91,7 @@ class MyArrayListSimpleTest {
     @Test
     void shouldGetWithIndex() {
         assertEquals(ELEMENT_FIRST, listWithThirdElements.get(0));
-        assertEquals(ELEMENT_SECOND, listWithThirdElements.get(1));
+        assertNull(listWithThirdElements.get(1));
         assertEquals(ELEMENT_THIRD, listWithThirdElements.get(2));
     }
 
@@ -112,17 +112,21 @@ class MyArrayListSimpleTest {
         assertEquals(ELEMENT_FIRST, listWithThirdElements.remove(0));
         assertFalse(listWithThirdElements.isEmpty());
         assertEquals(2, listWithThirdElements.size());
-        assertEquals(ELEMENT_SECOND, listWithThirdElements.get(0));
+        assertNull(listWithThirdElements.get(0));
         assertEquals(ELEMENT_THIRD, listWithThirdElements.get(1));
     }
 
     @Test
     void shouldRemoveMiddleElement() {
-        assertEquals(ELEMENT_SECOND, listWithThirdElements.remove(1));
+        assertNull(listWithThirdElements.remove(1));
         assertFalse(listWithThirdElements.isEmpty());
         assertEquals(2, listWithThirdElements.size());
         assertEquals(ELEMENT_FIRST, listWithThirdElements.get(0));
         assertEquals(ELEMENT_THIRD, listWithThirdElements.get(1));
+
+        assertEquals(ELEMENT_FIRST, listWithThirdElements.remove(0));
+        assertFalse(listWithThirdElements.isEmpty());
+        assertEquals(ELEMENT_THIRD, listWithThirdElements.get(0));
     }
 
     @Test
@@ -131,7 +135,7 @@ class MyArrayListSimpleTest {
         assertFalse(listWithThirdElements.isEmpty());
         assertEquals(2, listWithThirdElements.size());
         assertEquals(ELEMENT_FIRST, listWithThirdElements.get(0));
-        assertEquals(ELEMENT_SECOND, listWithThirdElements.get(1));
+        assertNull(listWithThirdElements.get(1));
     }
 
     @Test
