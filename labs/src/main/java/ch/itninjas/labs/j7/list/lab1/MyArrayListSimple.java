@@ -1,6 +1,6 @@
 package ch.itninjas.labs.j7.list.lab1;
 
-public class MyArrayList<E> implements MyListInterfaceSimple<E> {
+public class MyArrayListSimple<E> implements MyListInterfaceSimple<E> {
     @Override
     public void add(E element) {
 

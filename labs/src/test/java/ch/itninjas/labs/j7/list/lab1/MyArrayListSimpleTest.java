@@ -6,19 +6,19 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class MyArrayListTest {
+class MyArrayListSimpleTest {
 
     static final String ELEMENT_FIRST = "First";
     static final String ELEMENT_SECOND = "Second";
     static final String ELEMENT_THIRD = "Third";
 
-    MyArrayList<String> listEmpty;
-    MyArrayList<String> listWithThirdElements;
+    MyArrayListSimple<String> listEmpty;
+    MyArrayListSimple<String> listWithThirdElements;
 
     @BeforeEach
     void setUp() {
-        listEmpty = new MyArrayList<>();
-        listWithThirdElements = new MyArrayList<>();
+        listEmpty = new MyArrayListSimple<>();
+        listWithThirdElements = new MyArrayListSimple<>();
         listWithThirdElements.add(ELEMENT_FIRST);
         listWithThirdElements.add(ELEMENT_SECOND);
         listWithThirdElements.add(ELEMENT_THIRD);
@@ -80,10 +80,10 @@ class MyArrayListTest {
         listEmpty.add(null);
         assertFalse(listEmpty.isEmpty());
         assertEquals(2, listEmpty.size());
-        assertEquals(null, listEmpty.get(0));
-        assertEquals(null, listEmpty.remove(0));
+        assertNull(listEmpty.get(0));
+        assertNull(listEmpty.remove(0));
         assertEquals(1, listEmpty.size());
-        assertEquals(null, listEmpty.remove(0));
+        assertNull(listEmpty.remove(0));
         assertEquals(0, listEmpty.size());
         assertTrue(listEmpty.isEmpty());
     }
