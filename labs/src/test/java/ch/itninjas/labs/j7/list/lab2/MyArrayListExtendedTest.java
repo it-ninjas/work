@@ -1,6 +1,5 @@
 package ch.itninjas.labs.j7.list.lab2;
 
-import ch.itninjas.labs.j7.list.lab2.MyArrayListExtended;
 import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;

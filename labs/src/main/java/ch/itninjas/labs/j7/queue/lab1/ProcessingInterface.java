@@ -4,6 +4,7 @@ public interface ProcessingInterface {
 
     /**
      * Add a job to the system.
+     *
      * @return true if the job is added.
      */
     boolean addJob(Job job);
