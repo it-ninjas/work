@@ -1,4 +1,4 @@
-package ch.itninjas.helper;
+package ch.itninjas.utils;
 
 import java.util.ArrayList;
 

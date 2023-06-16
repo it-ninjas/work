@@ -37,7 +37,7 @@ public class Start {
     /**
      * Get the next Job ID.
      */
-    static public int getNextJobId() {
+    public static int getNextJobId() {
         return jobId.getAndIncrement();
     }
 }
