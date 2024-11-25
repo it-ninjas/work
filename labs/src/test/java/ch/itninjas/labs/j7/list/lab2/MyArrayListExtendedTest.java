@@ -394,9 +394,7 @@ class MyArrayListExtendedTest {
 
         @Test
         void shouldRemoveNotExistingElement() {
-            assertThrows(IndexOutOfBoundsException.class, () ->
-                    listWithThirdElements.remove(ELEMENT_FIFTH)
-            );
+            assertFalse(listWithThirdElements.remove(ELEMENT_FIFTH));
         }
     }
 }
