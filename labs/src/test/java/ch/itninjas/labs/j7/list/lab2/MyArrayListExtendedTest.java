@@ -3,6 +3,7 @@ package ch.itninjas.labs.j7.list.lab2;
 import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.Mockito.*;
 
 class MyArrayListExtendedTest {
 
@@ -144,14 +145,14 @@ class MyArrayListExtendedTest {
         @Test
         void shouldNotRemoveWithToBigIndex() {
             assertThrows(IndexOutOfBoundsException.class, () ->
-                    listWithThirdElements.remove(4)
+                listWithThirdElements.remove(4)
             );
         }
 
         @Test
         void shouldNotRemoveWithMinusIndex() {
             assertThrows(IndexOutOfBoundsException.class, () ->
-                    listWithThirdElements.remove(-1)
+                listWithThirdElements.remove(-1)
             );
         }
 
@@ -223,20 +224,20 @@ class MyArrayListExtendedTest {
         @Test
         void shouldAddWithToBigIndex() {
             assertThrows(IndexOutOfBoundsException.class, () ->
-                    listEmpty.add(10, ELEMENT_FIFTH)
+                listEmpty.add(10, ELEMENT_FIFTH)
             );
             assertThrows(IndexOutOfBoundsException.class, () ->
-                    listWithThirdElements.add(10, ELEMENT_FIFTH)
+                listWithThirdElements.add(10, ELEMENT_FIFTH)
             );
         }
 
         @Test
         void shouldAddWithMinusIndex() {
             assertThrows(IndexOutOfBoundsException.class, () ->
-                    listWithThirdElements.add(-1, ELEMENT_FIFTH)
+                listWithThirdElements.add(-1, ELEMENT_FIFTH)
             );
             assertThrows(IndexOutOfBoundsException.class, () ->
-                    listEmpty.add(-1, ELEMENT_FIFTH)
+                listEmpty.add(-1, ELEMENT_FIFTH)
             );
         }
 
@@ -336,20 +337,20 @@ class MyArrayListExtendedTest {
         @Test
         void shouldNotSetElementWithToBigIndex() {
             assertThrows(IndexOutOfBoundsException.class, () ->
-                    listEmpty.set(10, ELEMENT_FIFTH)
+                listEmpty.set(10, ELEMENT_FIFTH)
             );
             assertThrows(IndexOutOfBoundsException.class, () ->
-                    listWithThirdElements.set(10, ELEMENT_FIFTH)
+                listWithThirdElements.set(10, ELEMENT_FIFTH)
             );
         }
 
         @Test
         void shouldNotSetElementWithMinusIndex() {
             assertThrows(IndexOutOfBoundsException.class, () ->
-                    listEmpty.set(-1, ELEMENT_FIFTH)
+                listEmpty.set(-1, ELEMENT_FIFTH)
             );
             assertThrows(IndexOutOfBoundsException.class, () ->
-                    listWithThirdElements.set(-1, ELEMENT_FIFTH)
+                listWithThirdElements.set(-1, ELEMENT_FIFTH)
             );
         }
 
@@ -395,6 +396,59 @@ class MyArrayListExtendedTest {
         @Test
         void shouldRemoveNotExistingElement() {
             assertFalse(listWithThirdElements.remove(ELEMENT_FIFTH));
+        }
+
+        @Test
+        void shouldReturnFalseForNull() {
+            assertFalse(listEmpty.equals(null));
+            assertFalse(listWithThirdElements.equals(null));
+        }
+
+        @Test
+        void shouldReturnFalseForDifferentType() {
+            assertFalse(listEmpty.equals("Not a List"));
+            assertFalse(listWithThirdElements.equals(123));
+        }
+
+        @Test
+        void shouldReturnTrueForEmptyLists() {
+            MyListInterfaceExtended<String> mockedList = mock(MyListInterfaceExtended.class);
+            when(mockedList.isEmpty()).thenReturn(true);
+            when(mockedList.size()).thenReturn(0);
+
+            assertTrue(listEmpty.equals(mockedList));
+        }
+
+        @Test
+        void shouldReturnFalseForListsWithDifferentSizes() {
+            MyListInterfaceExtended<String> mockedList = mock(MyListInterfaceExtended.class);
+            when(mockedList.size()).thenReturn(2);
+            when(mockedList.get(0)).thenReturn(ELEMENT_FIRST);
+            when(mockedList.get(1)).thenReturn(null);
+
+            assertFalse(listWithThirdElements.equals(mockedList));
+        }
+
+        @Test
+        void shouldReturnFalseForListsWithDifferentElements() {
+            MyListInterfaceExtended<String> mockedList = mock(MyListInterfaceExtended.class);
+            when(mockedList.size()).thenReturn(3);
+            when(mockedList.get(0)).thenReturn(ELEMENT_FIRST);
+            when(mockedList.get(1)).thenReturn(ELEMENT_SECOND); // Different element
+            when(mockedList.get(2)).thenReturn(ELEMENT_THIRD);
+
+            assertFalse(listWithThirdElements.equals(mockedList));
+        }
+
+        @Test
+        void shouldReturnTrueForEqualLists() {
+            MyListInterfaceExtended<String> mockedList = mock(MyListInterfaceExtended.class);
+            when(mockedList.size()).thenReturn(3);
+            when(mockedList.get(0)).thenReturn(ELEMENT_FIRST);
+            when(mockedList.get(1)).thenReturn(null);
+            when(mockedList.get(2)).thenReturn(ELEMENT_THIRD);
+
+            assertTrue(listWithThirdElements.equals(mockedList));
         }
     }
 }
