@@ -2,7 +2,7 @@ package ch.itninjas.labs.j7.map.lab1;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class PlzInfoTest {
 
