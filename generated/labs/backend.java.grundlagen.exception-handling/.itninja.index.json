@@ -1,0 +1,37 @@
+{
+  "generatedAt" : "2026-03-22T21:48:09.790276350Z",
+  "project" : "backend.java.grundlagen.exception-handling",
+  "files" : [ {
+    "path" : "README.md",
+    "size" : 6744,
+    "language" : "markdown"
+  }, {
+    "path" : "pom.xml",
+    "size" : 1385,
+    "language" : "xml"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/Main.java",
+    "size" : 792,
+    "language" : "java"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/basicexercises/AgeValidator.java",
+    "size" : 310,
+    "language" : "java"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/basicexercises/Calculator.java",
+    "size" : 1472,
+    "language" : "java"
+  }, {
+    "path" : "src/test/java/ch/itninja/labs/AgeValidatorTest.java",
+    "size" : 1611,
+    "language" : "java"
+  }, {
+    "path" : "src/test/java/ch/itninja/labs/CalculatorTest.java",
+    "size" : 3139,
+    "language" : "java"
+  }, {
+    "path" : "src/test/java/ch/itninja/labs/util/ItNinjaOutput.java",
+    "size" : 370,
+    "language" : "java"
+  } ]
+}

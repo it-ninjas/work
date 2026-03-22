@@ -1,0 +1,17 @@
+{
+  "generatedAt" : "2026-03-22T21:47:59.804009245Z",
+  "project" : "00_simple-hello-world",
+  "files" : [ {
+    "path" : ".gitignore",
+    "size" : 32,
+    "language" : "gitignore"
+  }, {
+    "path" : "README.md",
+    "size" : 740,
+    "language" : "markdown"
+  }, {
+    "path" : "src/Main.java",
+    "size" : 119,
+    "language" : "java"
+  } ]
+}

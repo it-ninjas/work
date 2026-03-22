@@ -1,0 +1,419 @@
+<!--suppress CheckEmptyScriptTag -->
+
+# Java Exercises - Einfache Berechnungen
+
+Mit diesen Übungen kannst du dein Wissen über einfache Berechnungen vertiefen.
+
+#### Voraussetzung
+
+- Du weisst, wie man in Java mit Zahlen rechnet.
+
+
+
+## Aufgabe 1 - geometrische Berechnungen
+
+Passe die folgenden Methoden an. Berechne Flächen, Umfang und Volumen und gib das Resultat auf der Konsole aus:
+
+- `Das Rechteck mit a=[value1]cm und b=[value2]cm hat eine Fläche von [result]cm2.`
+- `Das Dreieck mit g=[value1]cm und h=[value2]cm hat eine Fläche von [result]cm2.`
+- `Der Kreis mit dem Radius [value]cm hat eine Fläche von [result]cm2.`
+- `Das Rechteck mit a=[value1]cm und b=[value2]cm hat einen Umfang von [result]cm.`
+
+Wobei in der Ausgabe die Platzhalter mit den eckigen Klammern durch die entsprechenden Zahlen ersetzt werden sollen.
+Ganzzahlen sollen ohne '.' und Nachkommastellen angezeigt werden, Dezimalzahlen mit 2 Stellen hinter dem Punkt.
+
+```java
+    public static void printRectArea(int sideA, int sideB) {
+
+        // IT-Ninja: Füge hier Deinen Code ein:
+    }
+
+    public static void printTriangleArea(int sideC, int heightC) {
+
+        // IT-Ninja: Füge hier Deinen Code ein:
+    }
+
+    public static void printCircleArea(int radius) {
+
+        // IT-Ninja: Füge hier Deinen Code ein:
+    }
+
+    public static void printRectPerimeter(int sideA, int sideB) {
+
+        // IT-Ninja: Füge hier Deinen Code ein:
+    }
+```
+
+::src(src/main/java/ch/itninja/labs/basicexercises/CalculateForms.java)
+
+### Rechteck Flächenberechnung
+
+**Beispiel 1:**
+
+Eingabe:
+
+```console
+CalculateForms.printRectArea(4, 5);
+```
+
+Ausgabe:
+
+```console
+Das Rechteck mit a=4cm und b=5cm hat eine FlÃ¤che von 20cm2.
+```
+
+**Beispiel 2:**
+
+Eingabe:
+
+```console
+CalculateForms.printRectArea(3, 7);
+```
+
+Ausgabe:
+
+```console
+Das Rechteck mit a=3cm und b=7cm hat eine FlÃ¤che von 21cm2.
+```
+
+**Beispiel 3:**
+
+Eingabe:
+
+```console
+CalculateForms.printRectArea(6, 4);
+```
+
+Ausgabe:
+
+```console
+Das Rechteck mit a=6cm und b=4cm hat eine FlÃ¤che von 24cm2.
+```
+
+**Beispiel 4:**
+
+Eingabe:
+
+```console
+CalculateForms.printRectArea(0, 0);
+```
+
+Ausgabe:
+
+```console
+Das Rechteck mit a=0cm und b=0cm hat eine FlÃ¤che von 0cm2.
+```
+
+### Dreieck Flächenberechnung
+
+**Beispiel 1:**
+
+Eingabe:
+
+```console
+CalculateForms.printTriangleArea(4, 5);
+```
+
+Ausgabe:
+
+```console
+Das Dreieck mit c=4cm und h=5cm hat eine FlÃ¤che von 10cm2.
+```
+
+**Beispiel 2:**
+
+Eingabe:
+
+```console
+CalculateForms.printTriangleArea(3, 12);
+```
+
+Ausgabe:
+
+```console
+Das Dreieck mit c=3cm und h=12cm hat eine FlÃ¤che von 18cm2.
+```
+
+**Beispiel 3:**
+
+Eingabe:
+
+```console
+CalculateForms.printTriangleArea(6, 4);
+```
+
+Ausgabe:
+
+```console
+Das Dreieck mit c=6cm und h=4cm hat eine FlÃ¤che von 12cm2.
+```
+
+**Beispiel 4:**
+
+Eingabe:
+
+```console
+CalculateForms.printTriangleArea(0, 0);
+```
+
+Ausgabe:
+
+```console
+Das Dreieck mit c=0cm und h=0cm hat eine FlÃ¤che von 0cm2.
+```
+
+### Kreis Flächenberechnung
+
+**Beispiel 1:**
+
+Eingabe:
+
+```console
+CalculateForms.printCircleArea(4);
+```
+
+Ausgabe:
+
+```console
+Der Kreis mit r=4cm hat eine FlÃ¤che von 50.27cm2.
+```
+
+**Beispiel 2:**
+
+Eingabe:
+
+```console
+CalculateForms.printCircleArea(3);
+```
+
+Ausgabe:
+
+```console
+Der Kreis mit r=3cm hat eine FlÃ¤che von 28.27cm2.
+```
+
+**Beispiel 3:**
+
+Eingabe:
+
+```console
+CalculateForms.printCircleArea(6);
+```
+
+Ausgabe:
+
+```console
+Der Kreis mit r=6cm hat eine FlÃ¤che von 113.10cm2.
+```
+
+**Beispiel 4:**
+
+Eingabe:
+
+```console
+CalculateForms.printCircleArea(0);
+```
+
+Ausgabe:
+
+```console
+Der Kreis mit r=0cm hat eine FlÃ¤che von 0.00cm2.
+```
+
+### Rechteck Umfangberechnung
+
+**Beispiel 1:**
+
+Eingabe:
+
+```console
+CalculateForms.printRectPerimeter(4, 5);
+```
+
+Ausgabe:
+
+```console
+Das Rechteck mit a=4cm und b=5cm hat einen Umfang von 18cm.
+```
+
+**Beispiel 2:**
+
+Eingabe:
+
+```console
+CalculateForms.printRectPerimeter(3, 12);
+```
+
+Ausgabe:
+
+```console
+Das Rechteck mit a=3cm und b=12cm hat einen Umfang von 30cm.
+```
+
+**Beispiel 3:**
+
+Eingabe:
+
+```console
+CalculateForms.printRectPerimeter(6, 4);
+```
+
+Ausgabe:
+
+```console
+Das Rechteck mit a=6cm und b=4cm hat einen Umfang von 20cm.
+```
+
+**Beispiel 4:**
+
+Eingabe:
+
+```console
+CalculateForms.printRectPerimeter(0, 0);
+```
+
+Ausgabe:
+
+```console
+Das Rechteck mit a=0cm und b=0cm hat einen Umfang von 0cm.
+```
+
+## Aufgabe 2 - Checkout
+
+Passe die folgenden Methoden an. Nutze in einer Methode nur `double`, in der anderen `BigDecimal`. Erstelle für die untenstehende Einkaufsliste für jeden Artikel eine Variable und weise
+der Variable den entsprechenden Wert zu:
+
+- Apfel: CHF 0.10
+- Brot: CHF 1.10
+- Milch: CHF 2.20
+- Ei: CHF 0.20
+- Butter: CHF 2.10
+
+Erstelle ebenfalls eine Variable `totalExpected` mit dem zu erwartenden Total und berechne es (im Kopf oder Taschenrechner).
+
+Zähle die Preise der Produkte mittels Java-Code zusammen und speichere sie in der Variable `total`. Der darauf folgende
+Code wird dann die beiden Werte vergleichen und eine entsprechende Ausgabe machen (was der Code macht wirst du im
+nächsten Modul kennenlernen).
+
+> Denke beim Erstellen der Variablen daran, dass bei it-ninja der Code immer in englisch sein sollte, nur die Ausgabe
+> auf den Bildschirm soll auf deutsch sein.
+
+
+```java
+    public static void printTotalBigDecimal(){
+
+        BigDecimal totalExpected = new BigDecimal("0.0");   // Expected total price (your calculation)
+        BigDecimal total = new BigDecimal(0);               // Actual total price (computed)
+        // to add 2 BigDecimal you can use total = big1.add(big2).add(big3)
+
+        // IT-Ninja: Füge hier Deinen Code ein:
+        String expectedResult;
+        if(total.compareTo(totalExpected) == 0){
+            expectedResult = "wie erwartet";
+        }
+        else if(total.compareTo(totalExpected) > 0){
+            expectedResult = "zu hoch";
+        }
+        else {
+            expectedResult = "zu tief";
+        }
+        System.out.println("Alle Artikel zusammen kosten CHF " + total + ". Der Preis ist " + expectedResult + ".");
+    }
+
+    public static void printTotalDouble(){
+
+        double totalExpected = 0;   // Expected total price (your calculation)
+        double total = 0;           // Actual total price (computed)
+
+        // IT-Ninja: Füge hier Deinen Code ein:
+        String expectedResult;
+        if(total == totalExpected){
+            expectedResult = "wie erwartet";
+        }
+        else if(total > totalExpected){
+            expectedResult = "zu hoch";
+        }
+        else {
+            expectedResult = "zu tief";
+        }
+        System.out.printf("Alle Artikel zusammen kosten CHF %.2f. Der Preis ist %s.%n", total, expectedResult);
+
+    }
+```
+
+::src(src/main/java/ch/itninja/labs/basicexercises/Basket.java)
+
+Wenn du beide Methoden angepasst hat, vergleiche die Ausgabe. Du solltest folgende Ausgabe erhalten:
+
+**Beispielausgabe:**
+
+```console
+Alle Artikel zusammen kosten CHF 5.70. Der Preis ist wie erwartet.
+```
+
+
+## Aufgabe 3 - Alter in Monaten
+
+Passe die folgende Methode an. Berechne dein Alter in ganzen Monaten. Zähle den Monat wo du geboren wurdest und den
+aktuellen als ganzen Monat dazu. Gib Dein Alter auf der Konsole aus:
+
+- `Ich bin am dd.mm.yyyy geboren und heute am dd.mm.yyyy z Monate alt.`
+
+Wobei in der Ausgabe `dd.mm.yyyy` durch das tatsächliche Datum von Deinem Geburtstag resp. dem heutigen Datum ersetzt
+werden soll und `z` durch die Anzahl Monate.
+
+> Im Quellcode findest du auch statische Variablen (`dayOfBirth`, `monthOfBirth`, `yearOfBirth`, `dayOfToday`,
+> `monthOfToday`, `yearOfToday`). Passe diese Variablen an und nutze sie in in deinem Code. Es wird erwartet, dass sich
+> eine Änderung einer dieser Variablen auf die Berechnung aber auch auf die Ausgabe in der Konsole auswirkt. Was es
+> genau mit `static` auf sich hat lernst du bald.
+
+```java
+    public static void ageInMonths() {
+
+        // IT-Ninja: Füge hier Deinen Code ein:
+    }
+```
+
+::src(src/main/java/ch/itninja/labs/basicexercises/AgeCalculator.java)
+
+**Beispiel 1:**
+
+Eingabe:
+
+```console
+AgeCalculator.dayOfBirth = 1;
+AgeCalculator.monthOfBirth = 9;
+AgeCalculator.yearOfBirth = 1973;
+AgeCalculator.dayOfToday = 22;
+AgeCalculator.monthOfToday = 7;
+AgeCalculator.yearOfToday = 2025;
+
+AgeCalculator.ageInMonths();
+```
+
+Ausgabe:
+
+```console
+Ich bin am 01.09.1973 geboren und heute am 22.07.2025 623 Monate alt.
+```
+
+**Beispiel 2:**
+
+Eingabe:
+
+```console
+AgeCalculator.dayOfBirth = 15;
+AgeCalculator.monthOfBirth = 4;
+AgeCalculator.yearOfBirth = 2008;
+AgeCalculator.dayOfToday = 8;
+AgeCalculator.monthOfToday = 8;
+AgeCalculator.yearOfToday = 2025;
+
+AgeCalculator.ageInMonths();
+```
+
+Ausgabe:
+
+```console
+Ich bin am 15.04.2008 geboren und heute am 08.08.2025 209 Monate alt.
+```

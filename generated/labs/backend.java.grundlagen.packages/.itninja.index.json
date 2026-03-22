@@ -1,0 +1,25 @@
+{
+  "generatedAt" : "2026-03-22T21:47:50.161804590Z",
+  "project" : "backend.java.grundlagen.packages",
+  "files" : [ {
+    "path" : "README.md",
+    "size" : 2341,
+    "language" : "markdown"
+  }, {
+    "path" : "pom.xml",
+    "size" : 1386,
+    "language" : "xml"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/Main.java",
+    "size" : 250,
+    "language" : "java"
+  }, {
+    "path" : "src/test/java/ch/itninja/labs/basicexercises/EmptyTest.java",
+    "size" : 332,
+    "language" : "java"
+  }, {
+    "path" : "src/test/java/ch/itninja/labs/util/ItNinjaOutput.java",
+    "size" : 435,
+    "language" : "java"
+  } ]
+}

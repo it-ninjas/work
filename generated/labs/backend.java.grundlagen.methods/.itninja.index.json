@@ -1,0 +1,45 @@
+{
+  "generatedAt" : "2026-03-22T21:48:04.683811099Z",
+  "project" : "backend.java.grundlagen.methods",
+  "files" : [ {
+    "path" : "README.md",
+    "size" : 6615,
+    "language" : "markdown"
+  }, {
+    "path" : "pom.xml",
+    "size" : 1385,
+    "language" : "xml"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/Main.java",
+    "size" : 612,
+    "language" : "java"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/basicexercises/FibonacciHelper.java",
+    "size" : 198,
+    "language" : "java"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/basicexercises/MessageHelper.java",
+    "size" : 196,
+    "language" : "java"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/basicexercises/NumberHelper.java",
+    "size" : 195,
+    "language" : "java"
+  }, {
+    "path" : "src/test/java/ch/itninja/labs/basicexercises/FibonacciHelperTest.java",
+    "size" : 1544,
+    "language" : "java"
+  }, {
+    "path" : "src/test/java/ch/itninja/labs/basicexercises/MessageHelperTest.java",
+    "size" : 1804,
+    "language" : "java"
+  }, {
+    "path" : "src/test/java/ch/itninja/labs/basicexercises/NumberHelperTest.java",
+    "size" : 1537,
+    "language" : "java"
+  }, {
+    "path" : "src/test/java/ch/itninja/labs/util/ItNinjaOutput.java",
+    "size" : 435,
+    "language" : "java"
+  } ]
+}

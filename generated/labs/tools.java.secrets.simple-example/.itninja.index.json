@@ -1,0 +1,33 @@
+{
+  "generatedAt" : "2026-03-22T21:48:20.086500134Z",
+  "project" : "tools.java.secrets.simple-example",
+  "files" : [ {
+    "path" : ".gitignore",
+    "size" : 5,
+    "language" : "gitignore"
+  }, {
+    "path" : "README.md",
+    "size" : 1373,
+    "language" : "markdown"
+  }, {
+    "path" : "pom.xml",
+    "size" : 1723,
+    "language" : "xml"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/Main.java",
+    "size" : 309,
+    "language" : "java"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/secrets/Basic.java",
+    "size" : 750,
+    "language" : "java"
+  }, {
+    "path" : "src/test/java/ch/itninja/labs/secrets/BasicTest.java",
+    "size" : 666,
+    "language" : "java"
+  }, {
+    "path" : "src/test/java/ch/itninja/labs/util/ItNinjaOutput.java",
+    "size" : 435,
+    "language" : "java"
+  } ]
+}
