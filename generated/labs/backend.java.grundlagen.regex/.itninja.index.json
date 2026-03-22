@@ -1,0 +1,53 @@
+{
+  "generatedAt" : "2026-03-22T21:57:00.748027257Z",
+  "project" : "backend.java.grundlagen.regex",
+  "files" : [ {
+    "path" : "README.md",
+    "size" : 4633,
+    "language" : "markdown"
+  }, {
+    "path" : "data/mixed.txt",
+    "size" : 449,
+    "language" : "text"
+  }, {
+    "path" : "pom.xml",
+    "size" : 1200,
+    "language" : "xml"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/regex/RegexTasks.java",
+    "size" : 1925,
+    "language" : "java"
+  }, {
+    "path" : "src/test/java/ch/itninja/labs/regex/ItNinjaOutput.java",
+    "size" : 793,
+    "language" : "java"
+  }, {
+    "path" : "src/test/java/ch/itninja/labs/regex/RegexChPlzTest.java",
+    "size" : 1097,
+    "language" : "java"
+  }, {
+    "path" : "src/test/java/ch/itninja/labs/regex/RegexEmailTest.java",
+    "size" : 1240,
+    "language" : "java"
+  }, {
+    "path" : "src/test/java/ch/itninja/labs/regex/RegexIbanTest.java",
+    "size" : 1164,
+    "language" : "java"
+  }, {
+    "path" : "src/test/java/ch/itninja/labs/regex/RegexMatcherUtil.java",
+    "size" : 564,
+    "language" : "java"
+  }, {
+    "path" : "src/test/java/ch/itninja/labs/regex/RegexPasswordTest.java",
+    "size" : 1108,
+    "language" : "java"
+  }, {
+    "path" : "src/test/java/ch/itninja/labs/regex/RegexPhoneTest.java",
+    "size" : 1195,
+    "language" : "java"
+  }, {
+    "path" : "src/test/java/ch/itninja/labs/regex/RegexUrlTest.java",
+    "size" : 1223,
+    "language" : "java"
+  } ]
+}

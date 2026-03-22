@@ -1,0 +1,33 @@
+{
+  "generatedAt" : "2026-03-22T21:57:14.386068352Z",
+  "project" : "backend.java.grundlagen.debugging",
+  "files" : [ {
+    "path" : "README.md",
+    "size" : 2492,
+    "language" : "markdown"
+  }, {
+    "path" : "pom.xml",
+    "size" : 1386,
+    "language" : "xml"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/Main.java",
+    "size" : 578,
+    "language" : "java"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/basicexercises/MagicNumber.java",
+    "size" : 977,
+    "language" : "java"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/basicexercises/util/MagicNumberHelper.java",
+    "size" : 5510,
+    "language" : "java"
+  }, {
+    "path" : "src/test/java/ch/itninja/labs/basicexercises/MagicNumberTest.java",
+    "size" : 792,
+    "language" : "java"
+  }, {
+    "path" : "src/test/java/ch/itninja/labs/util/ItNinjaOutput.java",
+    "size" : 435,
+    "language" : "java"
+  } ]
+}

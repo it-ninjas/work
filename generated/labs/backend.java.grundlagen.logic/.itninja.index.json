@@ -1,0 +1,45 @@
+{
+  "generatedAt" : "2026-03-22T21:56:39.197515656Z",
+  "project" : "backend.java.grundlagen.logic",
+  "files" : [ {
+    "path" : "README.md",
+    "size" : 8679,
+    "language" : "markdown"
+  }, {
+    "path" : "pom.xml",
+    "size" : 1386,
+    "language" : "xml"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/Main.java",
+    "size" : 658,
+    "language" : "java"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/basicexercises/AgeCalculator.java",
+    "size" : 554,
+    "language" : "java"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/basicexercises/Basket.java",
+    "size" : 1666,
+    "language" : "java"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/basicexercises/CalculateForms.java",
+    "size" : 746,
+    "language" : "java"
+  }, {
+    "path" : "src/test/java/ch/itninja/labs/basicexercises/AgeCalculatorTest.java",
+    "size" : 2546,
+    "language" : "java"
+  }, {
+    "path" : "src/test/java/ch/itninja/labs/basicexercises/BasketTest.java",
+    "size" : 1832,
+    "language" : "java"
+  }, {
+    "path" : "src/test/java/ch/itninja/labs/basicexercises/CalculateFormsTest.java",
+    "size" : 5133,
+    "language" : "java"
+  }, {
+    "path" : "src/test/java/ch/itninja/labs/util/ItNinjaOutput.java",
+    "size" : 435,
+    "language" : "java"
+  } ]
+}

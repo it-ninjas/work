@@ -1,0 +1,29 @@
+{
+  "generatedAt" : "2026-03-22T21:56:55.597104753Z",
+  "project" : "backend.java.grundlagen.control-structures-loops",
+  "files" : [ {
+    "path" : "README.md",
+    "size" : 4354,
+    "language" : "markdown"
+  }, {
+    "path" : "pom.xml",
+    "size" : 1386,
+    "language" : "xml"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/Main.java",
+    "size" : 364,
+    "language" : "java"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/basicexercises/NumberHelper.java",
+    "size" : 605,
+    "language" : "java"
+  }, {
+    "path" : "src/test/java/ch/itninja/labs/basicexercises/NumberHelperTest.java",
+    "size" : 4380,
+    "language" : "java"
+  }, {
+    "path" : "src/test/java/ch/itninja/labs/util/ItNinjaOutput.java",
+    "size" : 435,
+    "language" : "java"
+  } ]
+}
