@@ -7,7 +7,7 @@ Mit diesen Übungen kannst du dein Wissen über Methoden vertiefen.
 #### Voraussetzung
 
 
-
+<!--instructions-->
 
 ## Aufgabe 1: Nachricht drucken
 

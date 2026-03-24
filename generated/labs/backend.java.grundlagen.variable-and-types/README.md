@@ -11,7 +11,7 @@ Mit diesen Übungen kannst du dein Wissen über Variablen und primitive Datentyp
 - Du weisst was primitive Datentypen sind.
 - Du weisst wie man Variablen formatiert auf der Konsole ausgibt.
 
-
+<!--instructions-->
 
 ## Aufgabe 1 - Hello It-Ninja
 

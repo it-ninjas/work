@@ -1,14 +1,18 @@
 {
-  "generatedAt" : "2026-03-22T21:57:20.200219913Z",
+  "generatedAt" : "2026-03-24T20:27:42.397705436Z",
   "project" : "backend.java.grundlagen.methods",
   "files" : [ {
     "path" : "README.md",
-    "size" : 6615,
+    "size" : 6634,
     "language" : "markdown"
   }, {
     "path" : "pom.xml",
     "size" : 1385,
     "language" : "xml"
+  }, {
+    "path" : "project.zip",
+    "size" : 6882,
+    "language" : "unknown"
   }, {
     "path" : "src/main/java/ch/itninja/labs/Main.java",
     "size" : 612,

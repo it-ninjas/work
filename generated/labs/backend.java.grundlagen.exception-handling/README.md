@@ -8,7 +8,7 @@ Mit diesen Übungen kannst du erste Erfahrungen beim behandeln von Exceptions sa
 
 - Du kennst `try`, `catch`, `throw`, `throws` und `finally`.
 
-
+<!--instructions-->
 
 ## Aufgabe 1 – Sichere Division
 
