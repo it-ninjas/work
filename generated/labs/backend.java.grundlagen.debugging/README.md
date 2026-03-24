@@ -9,7 +9,7 @@ Mit diesen Übungen kannst du dein Wissen zum Thema Debuggen vertiefen.
 - Du weisst was ein Breakpoint ist.
 - Du kannst den Debugger starten und den Code Schritt für Schritt ausführen
 
-
+<!--instructions-->
 
 {{< ninja warning>}}
 Zum Lösen der folgenden Aufgaben darfst du den Quellcode nicht verändern!

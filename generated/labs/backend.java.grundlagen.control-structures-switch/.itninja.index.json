@@ -1,14 +1,18 @@
 {
-  "generatedAt" : "2026-03-22T21:56:50.669661600Z",
+  "generatedAt" : "2026-03-24T20:27:12.700286419Z",
   "project" : "backend.java.grundlagen.control-structures-switch",
   "files" : [ {
     "path" : "README.md",
-    "size" : 2767,
+    "size" : 2786,
     "language" : "markdown"
   }, {
     "path" : "pom.xml",
     "size" : 1386,
     "language" : "xml"
+  }, {
+    "path" : "project.zip",
+    "size" : 4850,
+    "language" : "unknown"
   }, {
     "path" : "src/main/java/ch/itninja/labs/Main.java",
     "size" : 379,

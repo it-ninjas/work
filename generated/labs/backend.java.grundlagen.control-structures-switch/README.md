@@ -8,7 +8,7 @@ Mit diesen Übungen kannst du dein Wissen über den Befehl `switch` vertiefen.
 
 - Du kennst den `switch` Befehl.
 
-
+<!--instructions-->
 
 ## Aufgabe 1 - Monat ausgeben
 

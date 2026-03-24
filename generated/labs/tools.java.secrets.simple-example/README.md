@@ -11,7 +11,7 @@ Dieses Beispiel zeigt, wie man Geheimnisse in einer Java Applikation sicher hint
 - Du weisst was Maven ist und kannst Maven-Projekte aufsetzen.
 - Du weisst wie man bei Maven ein Paket hinzufügt.
 
-
+<!--instructions-->
 
 ## Übung
 

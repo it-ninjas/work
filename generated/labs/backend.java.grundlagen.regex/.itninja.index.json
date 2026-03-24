@@ -1,9 +1,9 @@
 {
-  "generatedAt" : "2026-03-22T21:57:00.748027257Z",
+  "generatedAt" : "2026-03-24T20:27:22.891861609Z",
   "project" : "backend.java.grundlagen.regex",
   "files" : [ {
     "path" : "README.md",
-    "size" : 4633,
+    "size" : 4652,
     "language" : "markdown"
   }, {
     "path" : "data/mixed.txt",
@@ -13,6 +13,10 @@
     "path" : "pom.xml",
     "size" : 1200,
     "language" : "xml"
+  }, {
+    "path" : "project.zip",
+    "size" : 9406,
+    "language" : "unknown"
   }, {
     "path" : "src/main/java/ch/itninja/labs/regex/RegexTasks.java",
     "size" : 1925,

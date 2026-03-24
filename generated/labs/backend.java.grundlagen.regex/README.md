@@ -9,7 +9,7 @@ Mit diesen Übungen kannst du dein Wissen zum Thema Regex vertiefen.
 - Ich kann mit Regex Zeichenketten im Text erkennen und extrahieren.
 - Ich verstehe, wie man Regex schrittweise und sicher testet.
 
-
+<!--instructions-->
 
 ## Aufgabe 1 - E-Mail-Adressen aus einem Text extrahieren
 Schreibe eine Regex, die alle E-Mail-Adressen in einem Text findet. Nutze die bereitgestellte Beispieldatei `data/mixed.txt`.

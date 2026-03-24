@@ -8,7 +8,7 @@ Mit diesen Übungen kannst du dein Wissen über einfache Berechnungen vertiefen.
 
 - Du weisst, wie man in Java mit Zahlen rechnet.
 
-
+<!--instructions-->
 
 ## Aufgabe 1 - geometrische Berechnungen
 

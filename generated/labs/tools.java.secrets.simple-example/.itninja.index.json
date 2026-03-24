@@ -1,5 +1,5 @@
 {
-  "generatedAt" : "2026-03-22T21:57:35.265761759Z",
+  "generatedAt" : "2026-03-24T20:27:57.599624024Z",
   "project" : "tools.java.secrets.simple-example",
   "files" : [ {
     "path" : ".gitignore",
@@ -7,12 +7,16 @@
     "language" : "gitignore"
   }, {
     "path" : "README.md",
-    "size" : 1373,
+    "size" : 1392,
     "language" : "markdown"
   }, {
     "path" : "pom.xml",
     "size" : 1723,
     "language" : "xml"
+  }, {
+    "path" : "project.zip",
+    "size" : 3533,
+    "language" : "unknown"
   }, {
     "path" : "src/main/java/ch/itninja/labs/Main.java",
     "size" : 309,

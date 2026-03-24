@@ -1,5 +1,5 @@
 {
-  "generatedAt" : "2026-03-22T21:57:15.092279995Z",
+  "generatedAt" : "2026-03-24T20:27:37.402628046Z",
   "project" : "backend.java.grundlagen.hello-world",
   "files" : [ {
     "path" : ".gitignore",
@@ -7,8 +7,12 @@
     "language" : "gitignore"
   }, {
     "path" : "README.md",
-    "size" : 740,
+    "size" : 759,
     "language" : "markdown"
+  }, {
+    "path" : "project.zip",
+    "size" : 975,
+    "language" : "unknown"
   }, {
     "path" : "src/Main.java",
     "size" : 119,

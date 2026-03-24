@@ -8,7 +8,7 @@ Mit diesen Übungen kannst du dein Wissen über die Befehle `for`, `while` und `
 
 - Du kennst die Befehle `for`, `while` und `do`.
 
-
+<!--instructions-->
 
 ## Aufgabe 1 - Summe aller durch 8 teilbaren Zahlen von 1 bis 100
 

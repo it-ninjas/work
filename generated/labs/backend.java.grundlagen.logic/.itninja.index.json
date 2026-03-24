@@ -1,14 +1,18 @@
 {
-  "generatedAt" : "2026-03-22T21:56:39.197515656Z",
+  "generatedAt" : "2026-03-24T20:27:01.412995537Z",
   "project" : "backend.java.grundlagen.logic",
   "files" : [ {
     "path" : "README.md",
-    "size" : 8679,
+    "size" : 8698,
     "language" : "markdown"
   }, {
     "path" : "pom.xml",
     "size" : 1386,
     "language" : "xml"
+  }, {
+    "path" : "project.zip",
+    "size" : 8472,
+    "language" : "unknown"
   }, {
     "path" : "src/main/java/ch/itninja/labs/Main.java",
     "size" : 658,

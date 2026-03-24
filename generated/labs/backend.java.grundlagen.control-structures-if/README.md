@@ -9,7 +9,7 @@ Mit diesen Übungen kannst du dein Wissen über bedingte Ausführung vertiefen.
 - Du verstehst und kennst die verschiedenen Conditional Statements.
 - Du weisst, wann und wie welches Conditional Statement eingesetzt werden sollte.
 
-
+<!--instructions-->
 
 ## Aufgabe 1 - Zahlenvergleich
 

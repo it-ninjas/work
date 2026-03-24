@@ -1,14 +1,18 @@
 {
-  "generatedAt" : "2026-03-22T21:56:55.597104753Z",
+  "generatedAt" : "2026-03-24T20:27:17.705087449Z",
   "project" : "backend.java.grundlagen.control-structures-loops",
   "files" : [ {
     "path" : "README.md",
-    "size" : 4354,
+    "size" : 4373,
     "language" : "markdown"
   }, {
     "path" : "pom.xml",
     "size" : 1386,
     "language" : "xml"
+  }, {
+    "path" : "project.zip",
+    "size" : 4390,
+    "language" : "unknown"
   }, {
     "path" : "src/main/java/ch/itninja/labs/Main.java",
     "size" : 364,
