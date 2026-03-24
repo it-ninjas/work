@@ -1,4 +1,4 @@
-# Java Exercises - Einfaches Hello World
+# Java Exercises - Einfaches Hello World (TEST)
 
 Hier kannst Du erste Erfahrungen sammeln mit einem einfachen Java Programm
 
