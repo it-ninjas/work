@@ -11,9 +11,7 @@ Mit diesen Übungen kannst du dein Wissen zum Thema Debuggen vertiefen.
 
 <!--instructions-->
 
-{{< ninja warning>}}
-Zum Lösen der folgenden Aufgaben darfst du den Quellcode nicht verändern!
-{{< /ninja >}}
+**Zum Lösen der folgenden Aufgaben darfst du den Quellcode nicht verändern!**
 
 ## Aufgabe 1 - Wert in Zwischenberechnung herausfinden
 
