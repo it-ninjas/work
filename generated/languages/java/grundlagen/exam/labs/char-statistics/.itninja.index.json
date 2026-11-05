@@ -1,0 +1,29 @@
+{
+  "generatedAt" : "2026-11-05T14:27:38.168811183Z",
+  "project" : "char-statistics",
+  "files" : [ {
+    "path" : "README.md",
+    "size" : 5127,
+    "language" : "markdown"
+  }, {
+    "path" : "pom.xml",
+    "size" : 667,
+    "language" : "xml"
+  }, {
+    "path" : "project.zip",
+    "size" : 5709,
+    "language" : "unknown"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/CharacterStatistics.java",
+    "size" : 705,
+    "language" : "java"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/Main.java",
+    "size" : 272,
+    "language" : "java"
+  }, {
+    "path" : "src/test/java/ch/itninja/labs/CharacterStatisticsTest.java",
+    "size" : 1257,
+    "language" : "java"
+  } ]
+}

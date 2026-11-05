@@ -1,0 +1,29 @@
+{
+  "generatedAt" : "2026-11-05T14:27:53.358253590Z",
+  "project" : "binary-format",
+  "files" : [ {
+    "path" : "README.md",
+    "size" : 6604,
+    "language" : "markdown"
+  }, {
+    "path" : "pom.xml",
+    "size" : 665,
+    "language" : "xml"
+  }, {
+    "path" : "project.zip",
+    "size" : 7028,
+    "language" : "unknown"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/Main.java",
+    "size" : 281,
+    "language" : "java"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/PointFileHelper.java",
+    "size" : 1370,
+    "language" : "java"
+  }, {
+    "path" : "src/test/java/ch/itninja/labs/PointFileHelperTest.java",
+    "size" : 2553,
+    "language" : "java"
+  } ]
+}

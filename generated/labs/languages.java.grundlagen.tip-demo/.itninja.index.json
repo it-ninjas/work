@@ -1,0 +1,21 @@
+{
+  "generatedAt" : "2026-11-05T14:28:28.120143689Z",
+  "project" : "languages.java.grundlagen.tip-demo",
+  "files" : [ {
+    "path" : "README.md",
+    "size" : 493,
+    "language" : "markdown"
+  }, {
+    "path" : "pom.xml",
+    "size" : 564,
+    "language" : "xml"
+  }, {
+    "path" : "project.zip",
+    "size" : 1210,
+    "language" : "unknown"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/Main.java",
+    "size" : 140,
+    "language" : "java"
+  } ]
+}

@@ -1,0 +1,25 @@
+{
+  "generatedAt" : "2026-11-05T14:27:22.495842947Z",
+  "project" : "todoapp",
+  "files" : [ {
+    "path" : ".gitignore",
+    "size" : 498,
+    "language" : "gitignore"
+  }, {
+    "path" : "README.md",
+    "size" : 1504,
+    "language" : "markdown"
+  }, {
+    "path" : "pom.xml",
+    "size" : 1093,
+    "language" : "xml"
+  }, {
+    "path" : "project.zip",
+    "size" : 2186,
+    "language" : "unknown"
+  }, {
+    "path" : "src/main/java/ch/sbb/tafy/Main.java",
+    "size" : 448,
+    "language" : "java"
+  } ]
+}

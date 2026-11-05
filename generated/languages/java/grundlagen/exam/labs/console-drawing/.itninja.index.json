@@ -1,0 +1,29 @@
+{
+  "generatedAt" : "2026-11-05T14:27:58.414808373Z",
+  "project" : "console-drawing",
+  "files" : [ {
+    "path" : "README.md",
+    "size" : 6524,
+    "language" : "markdown"
+  }, {
+    "path" : "pom.xml",
+    "size" : 667,
+    "language" : "xml"
+  }, {
+    "path" : "project.zip",
+    "size" : 6668,
+    "language" : "unknown"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/ConsoleDrawing.java",
+    "size" : 866,
+    "language" : "java"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/Main.java",
+    "size" : 298,
+    "language" : "java"
+  }, {
+    "path" : "src/test/java/ch/itninja/labs/ConsoleDrawingTest.java",
+    "size" : 1598,
+    "language" : "java"
+  } ]
+}

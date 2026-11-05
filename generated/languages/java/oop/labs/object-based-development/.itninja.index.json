@@ -1,0 +1,29 @@
+{
+  "generatedAt" : "2026-11-05T14:28:07.281522111Z",
+  "project" : "object-based-development",
+  "files" : [ {
+    "path" : "README.md",
+    "size" : 2216,
+    "language" : "markdown"
+  }, {
+    "path" : "pom.xml",
+    "size" : 620,
+    "language" : "xml"
+  }, {
+    "path" : "project.zip",
+    "size" : 2556,
+    "language" : "unknown"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/Basket.java",
+    "size" : 424,
+    "language" : "java"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/Main.java",
+    "size" : 493,
+    "language" : "java"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/Playlist.java",
+    "size" : 438,
+    "language" : "java"
+  } ]
+}

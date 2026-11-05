@@ -1,0 +1,29 @@
+{
+  "generatedAt" : "2026-11-05T14:27:48.256255091Z",
+  "project" : "matrix-blocks",
+  "files" : [ {
+    "path" : "README.md",
+    "size" : 7666,
+    "language" : "markdown"
+  }, {
+    "path" : "pom.xml",
+    "size" : 665,
+    "language" : "xml"
+  }, {
+    "path" : "project.zip",
+    "size" : 7845,
+    "language" : "unknown"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/Main.java",
+    "size" : 294,
+    "language" : "java"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/MatrixHelper.java",
+    "size" : 1438,
+    "language" : "java"
+  }, {
+    "path" : "src/test/java/ch/itninja/labs/MatrixHelperTest.java",
+    "size" : 1967,
+    "language" : "java"
+  } ]
+}

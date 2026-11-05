@@ -1,0 +1,29 @@
+{
+  "generatedAt" : "2026-11-05T14:27:33.214658457Z",
+  "project" : "little-endian",
+  "files" : [ {
+    "path" : "README.md",
+    "size" : 5502,
+    "language" : "markdown"
+  }, {
+    "path" : "pom.xml",
+    "size" : 665,
+    "language" : "xml"
+  }, {
+    "path" : "project.zip",
+    "size" : 5782,
+    "language" : "unknown"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/ByteOrderHelper.java",
+    "size" : 1197,
+    "language" : "java"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/Main.java",
+    "size" : 279,
+    "language" : "java"
+  }, {
+    "path" : "src/test/java/ch/itninja/labs/ByteOrderHelperTest.java",
+    "size" : 1161,
+    "language" : "java"
+  } ]
+}

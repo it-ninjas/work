@@ -1,0 +1,33 @@
+{
+  "generatedAt" : "2026-11-05T14:28:03.449605950Z",
+  "project" : "hexdump",
+  "files" : [ {
+    "path" : "README.md",
+    "size" : 5948,
+    "language" : "markdown"
+  }, {
+    "path" : "pom.xml",
+    "size" : 1000,
+    "language" : "xml"
+  }, {
+    "path" : "project.zip",
+    "size" : 7054,
+    "language" : "unknown"
+  }, {
+    "path" : "sample.txt",
+    "size" : 29,
+    "language" : "text"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/FileHelper.java",
+    "size" : 1131,
+    "language" : "java"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/Main.java",
+    "size" : 393,
+    "language" : "java"
+  }, {
+    "path" : "src/test/java/ch/itninja/labs/FileHelperTest.java",
+    "size" : 2792,
+    "language" : "java"
+  } ]
+}

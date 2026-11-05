@@ -1,0 +1,2 @@
+Grüezi Java!
+Hexdump üben.

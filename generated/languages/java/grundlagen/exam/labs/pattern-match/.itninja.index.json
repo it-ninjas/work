@@ -1,0 +1,29 @@
+{
+  "generatedAt" : "2026-11-05T14:27:43.267150688Z",
+  "project" : "pattern-match",
+  "files" : [ {
+    "path" : "README.md",
+    "size" : 5902,
+    "language" : "markdown"
+  }, {
+    "path" : "pom.xml",
+    "size" : 665,
+    "language" : "xml"
+  }, {
+    "path" : "project.zip",
+    "size" : 6401,
+    "language" : "unknown"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/Main.java",
+    "size" : 298,
+    "language" : "java"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/ProfileHelper.java",
+    "size" : 1220,
+    "language" : "java"
+  }, {
+    "path" : "src/test/java/ch/itninja/labs/ProfileHelperTest.java",
+    "size" : 1697,
+    "language" : "java"
+  } ]
+}

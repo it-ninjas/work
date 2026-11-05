@@ -1,0 +1,29 @@
+{
+  "generatedAt" : "2026-11-05T14:27:27.561620947Z",
+  "project" : "color-values",
+  "files" : [ {
+    "path" : "README.md",
+    "size" : 6364,
+    "language" : "markdown"
+  }, {
+    "path" : "pom.xml",
+    "size" : 664,
+    "language" : "xml"
+  }, {
+    "path" : "project.zip",
+    "size" : 6573,
+    "language" : "unknown"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/ColorHelper.java",
+    "size" : 1554,
+    "language" : "java"
+  }, {
+    "path" : "src/main/java/ch/itninja/labs/Main.java",
+    "size" : 288,
+    "language" : "java"
+  }, {
+    "path" : "src/test/java/ch/itninja/labs/ColorHelperTest.java",
+    "size" : 1031,
+    "language" : "java"
+  } ]
+}
